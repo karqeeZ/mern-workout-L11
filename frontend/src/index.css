@@ -3,16 +3,16 @@
 
 /* layout */
 :root {
-  --primary: #1aac83;
-  --error: #e7195a;
+  --primary: #8739e0;
+  --error: #c02656;
 }
 body {
-  background: #f1f1f1;
+  background: #1e2a47;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #4d68a7;
 }
 header .container {
   max-width: 1400px;
@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
 }
 .pages{
@@ -70,6 +70,9 @@ header a {
 /* new workout form */
 label, input {
   display: block;
+}
+.create label, h3  {
+  color: #fff;
 }
 input {
   padding: 10px;
@@ -125,4 +128,10 @@ form.signup, form.login{
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+}
+.signup h3 {
+  color: #1e2a47;
+}
+span {
+  color: #fff;
 }
